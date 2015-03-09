@@ -10,7 +10,7 @@
 <title>Insurance Claim Deatils</title>
 </head>
 <body>
-Gracias por realizar tu reclamación. <br>
+Gracias por realizar tu reclamación, chaval. <br>
 Aquí están los detalles de la misma <br>
 ------------------------- <br>
 
