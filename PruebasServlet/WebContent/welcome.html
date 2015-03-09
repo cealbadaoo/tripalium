@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Hola</title>
+</head>
+<body>
+	<p>Hola Mundo inmundo!!!</p>
+
+<form action="claim.jsp" method="post">
+	<p>Policy Number:</p>
+	<p><input type="text" id="policynumber" name="policyNumber" /></p>
+	<p>Amount Claimed: :</p>
+	<p><input type="text" id="claim" name="claim" /></p>	
+	<p>Tipo de Seguro:</p>
+	<p><input type="radio" id="building" name="type" value="building"/><label for="building">Edificio</label></p>	
+	<p><input type="radio" id="contents" name="type" value="contents"/><label for="contents">Contenido</label></p>	
+	<p><input type="radio" id="life" name="type" value="life"/><label for="life">Vida</label></p>	
+	<p>Description:</p>
+	<p><textarea id="description" name="description" rows="5" cols="30"></textarea></p>
+	
+	<p><input type="submit" value="Dale" /></p>
+</form>
+</body>
+</html>
